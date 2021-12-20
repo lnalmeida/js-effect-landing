@@ -56,11 +56,11 @@ section span {
     margin: 0;
     width: 5vw;
     height: 5vh;
-    animation: anima 10s ease-in-out forwards;
+    animation: anima 5s ease-in-out forwards;
     animation-delay: 15s;
 }
 
-/* @keyframes anima{
+@keyframes anima{
     0%{
         opacity: 0;
         -webkit-transform: scale(0) translateY(1000px);
@@ -80,9 +80,9 @@ section span {
         background-position: center;
         background-attachment: fixed;
     }
-} */
+}
 
-@keyframes anima {
+/* @keyframes anima {
     0% {
         transform: translateZ(2000px);
         background: url('/assets/valentes_de_davi_01.JPG');
@@ -98,4 +98,4 @@ section span {
         background-position: center;
     }
 }
-    
+     */
